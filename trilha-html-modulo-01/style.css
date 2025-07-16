@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 32px 80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    margin-bottom: 16px;
+}
+
+main ul{
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+}
+
+main li {
+    border: 2px solid lightblue;
+    padding: 8px 16px;
+    transition: .3 ease;
+    cursor: pointer;
+}
+
+main li:hover {
+    background-color: lightskyblue;
+}
+
+section {
+    width: 80%;
+    margin: 32px 0;
+}
+
+.tags {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table th, table td{
+    border: 1px solid lightblue;
+    padding: 8px;
+}
+
+p {
+    line-height: 140%;
+}

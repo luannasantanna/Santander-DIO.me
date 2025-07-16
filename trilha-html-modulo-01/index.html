@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>HTML Semântico</h1>
+      <hr />
+    </header>
+
+    <main>
+      <h2>Índice</h2>
+      <ul>
+        <li><a href="#tag">Tags Semânticas</a></li>
+        <li><a href="#SEO">SEO</a></li>
+        <li><a href="#links">Links de referências</a></li>
+      </ul>
+    </main>
+
+    <section>
+      <h2>Entendendo HTML Semântico</h2>
+      <p>
+        O <strong>HTML semântico</strong> é uma abordagem fundamental na construção de páginas web modernas. A ideia central é utilizar as tags
+        HTML de forma que elas descrevam claramente o significado e a função de cada parte do conteúdo, não apenas a sua aparência visual. Isso torna o
+        código mais organizado, acessível e otimizado para mecanismos de busca.
+        <br>
+        <br>
+        Em vez de apenas usar elementos genéricos como &lt;div&gt; ou &lt;span&gt; para tudo, o HTML semântico incentiva o uso de tags
+        específicas como &lt;header&gt;, &lt;nav&gt;, &lt;section&gt;,
+        &lt;article&gt;, &lt;aside&gt; e &lt;footer&gt;, cada uma com um propósito definido dentro da estrutura da página. Por exemplo, o
+        &lt;header&gt; indica o cabeçalho de uma página ou de uma seção, enquanto o &lt;nav&gt; sinaliza que ali estão os links de navegação. O
+        &lt;main&gt; delimita o conteúdo principal da página, e o &lt;footer&gt; representa o rodapé com informações complementares. 
+        <br>
+        <br>
+        Essa estrutura facilita a leitura do código não apenas por outros desenvolvedores, mas também por tecnologias assistivas, como leitores de tela usados por
+        pessoas com deficiência visual. Isso contribui para a acessibilidade do site, garantindo que todos os usuários consigam navegar e entender o
+        conteúdo de forma clara. Além disso, o HTML semântico desempenha um papel importante em práticas de SEO (Search Engine Optimization). 
+        <br>
+        <br>
+        Quando os mecanismos de busca rastreiam o site, eles conseguem interpretar melhor a hierarquia e o contexto das informações, aumentando as chances
+        da página aparecer bem posicionada nos resultados de pesquisa. Outro benefício é a manutenção e escalabilidade do projeto. Um site bem
+        estruturado semanticamente facilita futuras atualizações, alterações de layout e integração com outras tecnologias, como CSS e JavaScript.
+        <br>
+        <br>
+        Portanto, ao adotar o HTML semântico, o desenvolvedor não apenas melhora a qualidade técnica do código, mas também proporciona uma experiência
+        mais inclusiva e eficiente para todos os usuários da web.
+      </p>
+    </section>
+
+    <section>
+      <h2 id="tag">Principais tags semânticas:</h2>
+      <table class="tags">
+        <tr>
+          <th>Tag</th>
+          <th>Descrição</th>
+        </tr>
+        <tr>
+          <td>&lt;main&gt;</td>
+          <td>
+            Representa o conteúdo principal da página, aquilo que é central para
+            o visitante. Só pode haver uma &lt;main&gt; por página.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;header&gt;</td>
+          <td>
+            Indica o cabeçalho de uma página ou de uma seção. Normalmente contém
+            títulos, logotipo ou links de navegação.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;footer&gt;</td>
+          <td>
+            Representa o rodapé, geralmente contendo informações de contato,
+            direitos autorais ou links adicionais.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;aside&gt;</td>
+          <td>
+            Usado para conteúdos complementares, como barras laterais, anúncios
+            ou links relacionados.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;section&gt;</td>
+          <td>
+            Define uma seção temática dentro da página, agrupando conteúdos
+            relacionados.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;nav&gt;</td>
+          <td>
+            Especifica um bloco de links de navegação, como menus ou índices de
+            página.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;article&gt;</td>
+          <td>
+            Indica um conteúdo independente e auto-contido, como postagens de
+            blog, notícias ou artigos.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;blockquote&gt;</td>
+          <td>
+            Usado para citar conteúdos externos de forma destacada. Pode conter
+            a citação de um livro, site, etc.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;figure&gt;</td>
+          <td>
+            Agrupa conteúdos gráficos como imagens, diagramas ou códigos,
+            podendo vir acompanhado de uma legenda.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;figcaption&gt;</td>
+          <td>
+            Fornece a legenda ou descrição para o conteúdo dentro de uma
+            &lt;figure&gt;.
+          </td>
+        </tr>
+        <tr>
+          <td>&lt;picture&gt;</td>
+          <td>
+            Permite carregar diferentes versões de uma imagem dependendo do
+            tamanho de tela ou resolução (responsividade).
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="SEO">
+      <h2>📌 Resenha sobre SEO (Search Engine Optimization)</h2>
+
+      <p>
+        O <strong>SEO (Search Engine Optimization)</strong> é o conjunto de
+        estratégias para melhorar o posicionamento de um site nos resultados de
+        busca, como o Google.
+        <br>
+        <br>
+        Uma boa estrutura semântica em HTML é fundamental para SEO, pois ajuda
+        os motores de busca a entenderem a hierarquia e o significado do
+        conteúdo. Usar corretamente tags como <code>&lt;main&gt;</code>,
+        <code>&lt;header&gt;</code>, <code>&lt;article&gt;</code>,
+        <code>&lt;section&gt;</code> e <code>&lt;nav&gt;</code> facilita a
+        indexação, melhora a acessibilidade e aumenta a relevância da página.
+        <br>
+        <br>
+        Além das tags, fatores como títulos bem estruturados (uso correto de
+        <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc.), URLs amigáveis,
+        meta descriptions, palavras-chave bem distribuídas e carregamento rápido
+        também são essenciais.
+        <br>
+        <br>
+        O SEO não só melhora a visibilidade de um site, mas também proporciona
+        uma experiência melhor ao usuário, tornando o conteúdo mais fácil de ser
+        encontrado, lido e compartilhado.
+      </p>
+    </section>
+
+    <footer id="links">
+      <h2>Links de referências</h2>
+      <ul>
+        <li><a href="#">http://dio.me</a></li>
+        <li><a href="#">http://w3c.org</a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
