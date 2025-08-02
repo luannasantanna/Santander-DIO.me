@@ -162,6 +162,10 @@ footer {
         max-width: 351px;
     }
 
+    .content--desktop {
+        order: -1;
+    }
+
     .container__desktop {
         flex-direction: column;
         text-align: center;
